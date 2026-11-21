@@ -1,0 +1,5 @@
+Portrait: Michael Jackson 1988.jpg
+Photographer: Alan Light
+Source: https://commons.wikimedia.org/wiki/File:Michael_Jackson_1988.jpg
+License: Creative Commons Attribution 2.0 (CC BY 2.0)
+Credit: Photo by Alan Light. The image is loaded from Wikimedia Commons; it is not bundled in this ZIP.

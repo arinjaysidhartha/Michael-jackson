@@ -1,109 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#090909">
-  <meta name="description" content="A fan-made digital museum celebrating Michael Jackson — the King of Pop.">
-  <title>Michael Jackson — The King of Pop</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A tribute to Michael Jackson, the King of Pop.">
+  <title>Michael Jackson King of Pop</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="progress" id="progress"></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Michael Jackson home">MJ<span>✦</span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#profile">The Artist</a>
-      <a href="#albums">Albums</a>
-      <a href="#this-is-it">This Is It</a>
-    </nav>
-  </header>
-
+  <header class="topbar"><a class="brand" href="#home">MJ <span>•</span> KING OF POP</a><a href="#legacy">EXPLORE HIS LEGACY ↓</a></header>
   <main>
-    <section class="hero section-theme" id="home" data-theme="dark">
-      <div class="hero-grain"></div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow">THE MUSIC. THE MOVEMENT. THE LEGACY.</p>
-        <h1>MICHAEL<br><span>JACKSON</span></h1>
-        <p class="hero-subtitle">THE KING OF POP <i>·</i> THE ENTERTAINER OF ENTERTAINERS</p>
-        <a class="gold-button" href="#profile">ENTER THE ARCHIVE <span>↓</span></a>
-      </div>
-      <div class="hero-photo-wrap">
-        <img class="hero-photo" src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Michael_Jackson,_1988.jpg" alt="Michael Jackson photographed in 1988, photo by Alan Light">
-        <div class="photo-caption">MICHAEL JACKSON · 1988<br><small>PHOTO: ALAN LIGHT / CC BY 2.0</small></div>
-      </div>
-      <div class="hero-bottom"><span>1958 — 2009</span><span>SCROLL TO EXPLORE</span><span>01 / 04</span></div>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">THE LEGEND • THE MUSIC • THE LEGACY</p>
+      <h1>MICHAEL<br><em>JACKSON</em></h1>
+      <p class="subtitle">THE KING OF POP</p>
+      <figure class="portrait">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_1988.jpg" alt="Portrait of Michael Jackson, photographed by Alan Light">
+      </figure>
+      <p class="tagline">The entertainer of entertainers.</p>
+      <a class="scroll" href="#legacy">SCROLL TO DISCOVER <span>↓</span></a>
     </section>
-
-    <section class="profile section-theme" id="profile" data-theme="gold">
-      <div class="section-kicker reveal">01 — THE ARTIST FILE</div>
-      <div class="profile-grid">
-        <div class="profile-heading reveal">
-          <p class="eyebrow dark-eyebrow">A LIFE IN MUSIC</p>
-          <h2>Who<br>is <em>he?</em></h2>
-          <div class="gold-rule"></div>
-          <p class="profile-lead">A singer. A songwriter. A dancer. A visionary performer whose work reshaped popular music and live entertainment.</p>
-        </div>
-        <div class="dossier reveal">
-          <div class="dossier-top"><span>ARTIST DOSSIER</span><span>FILE NO. 001</span></div>
-          <div class="dossier-row"><span>FULL NAME</span><strong>Michael Joseph Jackson</strong></div>
-          <div class="dossier-row"><span>BORN</span><strong>August 29, 1958 · Gary, Indiana, USA</strong></div>
-          <div class="dossier-row"><span>KNOWN AS</span><strong>The King of Pop</strong></div>
-          <div class="dossier-row"><span>PROFESSION</span><strong>Singer · Songwriter · Dancer · Performer</strong></div>
-          <div class="dossier-row"><span>GROUP</span><strong>The Jackson 5 / The Jacksons</strong></div>
-          <div class="dossier-row"><span>SOLO BREAKTHROUGH</span><strong>Off the Wall (1979)</strong></div>
-          <div class="dossier-row"><span>LANDMARK ALBUM</span><strong>Thriller (1982)</strong></div>
-          <div class="dossier-row"><span>LEGACY</span><strong>Music videos, choreography and global pop culture</strong></div>
-          <p class="dossier-note">His career moved from child performer with the Jackson 5 to one of the most influential solo entertainers in music history.</p>
-        </div>
-      </div>
-      <div class="section-foot"><span>THE STORY CONTINUES</span><span>02 / 04</span></div>
-    </section>
-
-    <section class="albums section-theme" id="albums" data-theme="black">
-      <div class="section-kicker reveal">02 — THE DISCOGRAPHY</div>
-      <div class="albums-intro reveal">
-        <p class="eyebrow">THE SOUND OF A GENERATION</p>
-        <h2>THE <em>ALBUMS</em></h2>
-        <p>Explore the albums, the milestones they reached and the records that made music history. Sales figures are identified as estimates or U.S. certifications where appropriate.</p>
-      </div>
-      <div class="album-grid" id="albumGrid" aria-live="polite">
-        <article class="album-card"><div class="cover-fallback">OFF THE<br>WALL</div><div class="album-info"><p class="album-year">1979</p><h3>Off the Wall</h3><p>Loading album artwork and details…</p></div></article>
-      </div>
-      <p class="sales-note">Sales totals vary by source and measurement method. Worldwide figures shown here are historical reported estimates, not audited current totals. U.S. RIAA certifications measure certified units in the United States.</p>
-      <div class="section-foot"><span>THE MUSIC LIVES ON</span><span>03 / 04</span></div>
-    </section>
-
-    <section class="rehearsal section-theme" id="this-is-it" data-theme="red">
-      <div class="section-kicker reveal">03 — THE FINAL PREPARATIONS</div>
-      <div class="rehearsal-content reveal">
-        <p class="eyebrow">BEHIND THE PERFORMANCE</p>
-        <h2>THIS IS<br><em>IT.</em></h2>
-        <p class="rehearsal-lead">The rehearsals for the planned London concerts offered a rare look at Michael Jackson shaping a stage production with his musicians, dancers and creative team.</p>
-        <div class="rehearsal-facts">
-          <div><strong>2009</strong><span>Rehearsal year</span></div>
-          <div><strong>50</strong><span>Planned O₂ Arena shows</span></div>
-          <div><strong>100+</strong><span>Hours of footage used for the film, according to Sony</span></div>
-        </div>
-        <p class="rehearsal-note">The concerts were planned for London but did not take place. The documentary <i>Michael Jackson’s This Is It</i> was assembled from rehearsal and behind-the-scenes footage filmed during preparations in 2009.</p>
-        <a class="light-button" href="https://www.sonypictures.com/movies/michaeljacksonsthisisit" target="_blank" rel="noopener">ABOUT THE FILM ↗</a>
-      </div>
-      <div class="rehearsal-side">A SHOW THAT THE WORLD NEVER GOT TO SEE</div>
-      <div class="section-foot"><span>IN HIS OWN ELEMENT</span><span>04 / 04</span></div>
+    <section class="legacy" id="legacy">
+      <div class="section-label">01 / THE ARTIST</div>
+      <h2>WHO IS <span>MJ?</span></h2>
+      <p class="intro">Michael Jackson (August 29, 1958 – June 25, 2009), often called MJ or the "King of Pop," was an American singer, songwriter, dancer, and philanthropist who reshaped pop music and visual performance.</p>
+      <div class="rule"></div>
+      <h3>CAREER &amp; LEGACY</h3>
+      <div class="fact"><b>EARLY START</b><p>Rose to fame as the lead singer of The Jackson 5 in the late 1960s before launching a landmark solo career.</p></div>
+      <div class="fact"><b>ICONIC ALBUMS</b><p>Released chart-topping and influential records including <i>Off the Wall</i> (1979), <i>Thriller</i> (1982)—the best-selling album of all time—<i>Bad</i> (1987), <i>Dangerous</i> (1991), and <i>HIStory</i> (1995).</p></div>
+      <div class="fact"><b>DANCE &amp; STAGE CRAFT</b><p>Popularized signature moves like the moonwalk, the robot, and the anti-gravity lean, turning music videos into cinematic shorts.</p></div>
+      <div class="fact"><b>ACHIEVEMENTS</b><p>Sold over 500 million records worldwide as a solo artist, earned 13 Grammy Awards, and scored 13 Billboard Hot 100 number-one singles.</p></div>
+      <div class="rule"></div>
+      <h3>PERSONAL LIFE &amp; LATER YEARS</h3>
+      <p class="intro small">Born in Gary, Indiana, and died at age 50 in Los Angeles from acute propofol intoxication. His life and music have been explored across documentaries and films, including <i>Michael Jackson's This Is It</i> (2009), <i>Leaving Neverland</i> (2019), and the 2026 biopic <i>Michael</i>.</p>
+      <p class="note">A fan-made tribute website. Not affiliated with the Michael Jackson estate.</p>
     </section>
   </main>
-
-  <footer>
-    <p class="footer-mark">MJ<span>✦</span></p>
-    <p>A fan-made tribute and independent learning project. Not affiliated with Michael Jackson’s estate or official representatives.</p>
-    <p class="credits">Photo credit: Alan Light, Wikimedia Commons, CC BY 2.0. Album artwork is loaded from Apple’s iTunes catalog and remains the property of its respective rights holders. Historical sales references: <a href="https://www.guinnessworldrecords.com/world-records/70133-best-selling-album" target="_blank" rel="noopener">Guinness World Records</a>, <a href="https://www.cbsnews.com/news/michael-jackson-discography/" target="_blank" rel="noopener">CBS News discography</a> and <a href="https://www.washingtonpost.com/archive/style/2009/06/26/jackson-discography/e839a071-4b02-4fad-b65a-4b6e2df47e66/" target="_blank" rel="noopener">The Washington Post</a>. <i>This Is It</i> information: <a href="https://www.sonypictures.com/movies/michaeljacksonsthisisit" target="_blank" rel="noopener">Sony Pictures</a>.</p>
-    <a href="#home">BACK TO TOP ↑</a>
-  </footer>
+  <footer>MICHAEL JACKSON • THE KING OF POP</footer>
   <script src="script.js"></script>
 </body>
 </html>

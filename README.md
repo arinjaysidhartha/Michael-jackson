@@ -1,24 +1,15 @@
-# Michael Jackson — The King of Pop
-
-A responsive, fan-made digital museum starter site built with HTML, CSS and JavaScript.
+# Michael Jackson King of Pop — Page 1
 
 ## Files
-- `index.html` — page structure and content
-- `style.css` — black, gold and red visual themes, responsive layout and animations
-- `script.js` — album cards, album-artwork lookup, scroll effects and mobile navigation
+- `index.html` — page structure and text
+- `style.css` — black-and-gold visual design and responsive layout
+- `script.js` — subtle scroll reveal effects
+- `image-credits.txt` — portrait source and attribution
 
 ## Preview
-Open `index.html` in a browser. Album cover artwork is loaded from Apple's public iTunes Search API, so an internet connection is needed for those images to appear. The main Michael Jackson photograph is hosted by Wikimedia Commons.
+Open `index.html` in a browser. The portrait is loaded from Wikimedia Commons, so an internet connection is needed to display it.
 
-## Publish with GitHub Pages
-1. Upload all three files to the root of your `Michael-jackson` repository.
-2. Open repository **Settings → Pages**.
-3. Choose **Deploy from a branch**.
-4. Select branch `main` and folder `/ (root)`, then save.
-5. Wait for GitHub Pages to publish the site.
+## Publish on GitHub Pages
+Upload `index.html`, `style.css`, `script.js`, and `image-credits.txt` to the root of your `Michael-jackson` repository. Then enable GitHub Pages in Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
-## Image credits and rights
-The hero photograph is by Alan Light, via Wikimedia Commons, under CC BY 2.0. Album cover art is retrieved from the iTunes catalog and remains the property of its respective rights holders. This project is an unofficial fan tribute and is not affiliated with Michael Jackson's estate.
-
-## Notes on sales
-Worldwide sales figures for older albums are estimates reported by historical sources and vary between publications. U.S. certification figures are labelled as such. The Thriller record note uses Guinness World Records' published description.
+This is page 1 only. Page 2 can be added later.
