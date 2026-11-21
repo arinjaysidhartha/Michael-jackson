@@ -1,0 +1,18 @@
+/* Page 2 only; reuses the existing Page 1 style.css for the same visual identity. */
+.albums-page{background:#080808;color:#f2e7cf}
+.albums-main{max-width:1120px;margin:0 auto;padding:132px 7vw 90px;text-align:left}
+.albums-kicker{font-size:10px;letter-spacing:4px;color:#d7b66a;margin-bottom:18px}
+.albums-heading{font-family:Cinzel,Georgia,serif;font-size:clamp(42px,8vw,78px);line-height:1.05;letter-spacing:3px;margin:0 0 14px}
+.albums-heading span{color:#d7b66a}
+.albums-intro{font-size:17px;line-height:1.8;color:#d8cdb7;font-weight:300;margin:0 0 64px;max-width:700px}
+.album-entry{padding:0 0 66px;margin:0 0 62px;border-bottom:1px solid #d7b66a55}
+.album-number{font-size:10px;letter-spacing:3px;color:#d7b66a;margin-bottom:10px}
+.album-entry h2{font-family:Cinzel,Georgia,serif;font-size:clamp(30px,5vw,48px);letter-spacing:2px;margin:0 0 26px;color:#f2e7cf}
+.album-layout{display:grid;grid-template-columns:minmax(190px,300px) minmax(0,1fr);gap:42px;align-items:start}
+.album-art{margin:0;padding:8px;border:1px solid #d7b66a99;background:#100e0a;box-shadow:0 16px 45px #000}
+.album-art img{display:block;width:100%;aspect-ratio:1;object-fit:cover;background:#17130d}
+.album-art figcaption{font-size:9px;letter-spacing:2px;text-align:center;color:#d7b66a;padding:13px 4px 7px}
+.album-copy p{font-size:17px;line-height:1.95;color:#e6dcc7;font-weight:300;margin:0 0 22px}
+.album-copy strong{display:inline-block;color:#d7b66a;font-size:11px;letter-spacing:2px;font-weight:600;margin-bottom:7px}
+.back-home{display:inline-block;color:#d7b66a;text-decoration:none;font-size:10px;letter-spacing:3px;border-bottom:1px solid #d7b66a;padding-bottom:8px;margin-top:6px}
+@media(max-width:720px){.albums-main{padding:112px 7vw 70px}.albums-intro{font-size:16px;margin-bottom:48px}.album-layout{grid-template-columns:1fr;gap:24px}.album-art{width:min(280px,82%)}.album-copy p{font-size:16px;line-height:1.9}.album-entry{margin-bottom:48px;padding-bottom:48px}}

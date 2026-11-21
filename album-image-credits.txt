@@ -1,0 +1,6 @@
+Album artwork is remotely loaded from the MusicBrainz Cover Art Archive:
+Off the Wall: https://coverartarchive.org/release/ae218e09-60cf-4799-9129-59a38947b47e/front-500
+Thriller: https://coverartarchive.org/release/8e056ddb-b62b-46b5-a7c7-a3a590fb4fc2/front-500
+Bad: https://coverartarchive.org/release/600c94c4-fd2a-408f-8758-e1a8829e945f/front-500
+
+Artwork belongs to its respective rights holders and is not bundled in this package.
