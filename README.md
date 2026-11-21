@@ -2,7 +2,7 @@
 
 ## Files
 - `index.html` — page structure and text
-- `style.css` — black-and-gold visual design and responsive layout
+- `style.css` — black-and-gold visual design, larger readable text, shorter portrait, and responsive layout
 - `script.js` — subtle scroll reveal effects
 - `image-credits.txt` — portrait source and attribution
 
