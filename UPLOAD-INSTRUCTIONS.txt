@@ -1,0 +1,3 @@
+Upload the CONTENTS of this ZIP to the ROOT of your existing Michael-jackson GitHub repository. Keep index.html, style.css and script.js at the repository root. Upload the albums folder too. Do not put these files inside another nested folder and do not replace them with a separate albums-only ZIP.
+
+Site paths: Home Page = /Michael-jackson/ ; Albums = /Michael-jackson/albums/
