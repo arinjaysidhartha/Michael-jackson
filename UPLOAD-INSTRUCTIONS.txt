@@ -1,3 +1,9 @@
-Upload the CONTENTS of this ZIP to the ROOT of your existing Michael-jackson GitHub repository. Keep index.html, style.css and script.js at the repository root. Upload the albums folder too. Do not put these files inside another nested folder and do not replace them with a separate albums-only ZIP.
-
-Site paths: Home Page = /Michael-jackson/ ; Albums = /Michael-jackson/albums/
+IMPORTANT: Upload the CONTENTS of this ZIP into the ROOT of your existing GitHub repository named Michael-jackson.
+Do not upload the outer folder as a nested folder.
+Replace the existing index.html, style.css and script.js with these updated files.
+Create/replace the albums folder and put albums/index.html, albums/albums.css and albums/albums.js inside it.
+Keep the folder name exactly: albums
+Do not rename albums/index.html to index.html in the repository root.
+After upload, open: https://arinjaysidhartha.github.io/Michael-jackson/
+Albums page: https://arinjaysidhartha.github.io/Michael-jackson/albums/
+The bare address https://arinjaysidhartha.github.io/ is a different GitHub Pages address and can show 404 for a project site.

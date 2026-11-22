@@ -1,15 +1,15 @@
-# Michael Jackson King of Pop — Page 1
+Michael Jackson fan website
 
-## Files
-- `index.html` — page structure and text
-- `style.css` — black-and-gold visual design, larger readable text, shorter portrait, and responsive layout
-- `script.js` — subtle scroll reveal effects
-- `image-credits.txt` — portrait source and attribution
+This package contains the Home page and Albums page with a matching black-and-gold hamburger navigation menu on both pages.
 
-## Preview
-Open `index.html` in a browser. The portrait is loaded from Wikimedia Commons, so an internet connection is needed to display it.
+Repository structure after upload:
+Michael-jackson/
+  index.html
+  style.css
+  script.js
+  albums/
+    index.html
+    albums.css
+    albums.js
 
-## Publish on GitHub Pages
-Upload `index.html`, `style.css`, `script.js`, and `image-credits.txt` to the root of your `Michael-jackson` repository. Then enable GitHub Pages in Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
-
-This is page 1 only. Page 2 can be added later.
+Upload the ZIP contents into the repository root. See UPLOAD-INSTRUCTIONS.txt.
