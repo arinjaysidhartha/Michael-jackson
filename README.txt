@@ -14,10 +14,10 @@ Files: index.html, style.css, script.js, albums.css, albums.js, image-credits.tx
 Album artwork loads from Cover Art Archive; the portrait loads from Wikimedia Commons, so those images need an internet connection.
 
 
-MJ RADIO UPDATE
-- Added a dedicated MJ RADIO section to index.html.
-- The live player is provided by MjTunes at https://www.mjtunes.com/?clang=en.
-- Press Play inside the embedded player. If your browser blocks the embedded player, use the OPEN MJ RADIO LIVE link.
-- The radio service runs its own stream; this website does not host, copy, or rebroadcast music.
-- The MjTunes catalogue includes Michael Jackson solo music and related Jackson 5 / The Jacksons recordings.
-- Internet access is required. Playback may require a tap and may open in a separate player window.
+MJ MUSIC BUTTON
+- The previous MjTunes radio section has been removed.
+- One small START MJ MUSIC button appears immediately after the homepage hero.
+- The button opens a Michael Jackson playlist on YouTube in a new tab.
+- Audio is played by YouTube; this website does not host, copy, or rebroadcast music.
+- The linked playlist is maintained on YouTube and may not match a custom song order.
+- YouTube and browser playback behavior, including sign-in, ads, and autoplay restrictions, is controlled by YouTube and the visitor's browser.

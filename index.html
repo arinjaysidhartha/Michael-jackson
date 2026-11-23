@@ -8,32 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="albums.css">
 
-/* MJ Radio — black and gold live-radio section */
-.topnav{display:flex;gap:clamp(12px,3vw,34px);align-items:center}
-.topnav a{font-size:9px;letter-spacing:2px}
-.mj-radio{position:relative;overflow:hidden;padding:105px 7vw 110px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#49371b 0%,#17120b 38%,#080808 78%);border-top:1px solid #d7b66a44;border-bottom:1px solid #d7b66a44}
-.mj-radio:before{content:"♪";position:absolute;left:-25px;top:25px;font-family:Georgia,serif;font-size:clamp(180px,35vw,420px);line-height:1;color:#d7b66a08;pointer-events:none}
-.radio-inner{position:relative;z-index:1;max-width:900px;margin:auto}
-.radio-kicker{font-size:9px;letter-spacing:4px;color:var(--gold)}
-.mj-radio h2{font-family:Cinzel,Georgia,serif;font-size:clamp(48px,9vw,88px);line-height:1;margin:20px 0 10px;letter-spacing:5px;color:var(--cream)}
-.mj-radio h2 span{color:var(--gold)}
-.radio-tagline{font-family:Cinzel,Georgia,serif;font-size:clamp(17px,3vw,24px);letter-spacing:6px;color:#f6e8c9;margin:16px 0}
-.radio-description{max-width:640px;margin:0 auto 25px;color:#d9cdb7;font-size:15px;line-height:1.9;font-weight:300}
-.radio-status{display:inline-flex;align-items:center;gap:10px;border:1px solid #d7b66a66;padding:11px 17px;color:#e7d7b3;font-size:9px;letter-spacing:2px;margin:5px auto 28px}
-.live-dot{width:8px;height:8px;border-radius:50%;background:#d7b66a;box-shadow:0 0 12px #d7b66a;animation:radioPulse 1.7s infinite}
-@keyframes radioPulse{50%{opacity:.35;box-shadow:0 0 2px #d7b66a}}
-.radio-player-shell{max-width:760px;margin:0 auto 25px;padding:10px;border:1px solid #d7b66a99;background:#090807;box-shadow:0 20px 65px #0009;text-align:left}
-.radio-player-top{display:flex;justify-content:space-between;padding:8px 9px 13px;color:var(--gold);font-size:9px;letter-spacing:2px}
-.radio-frame{display:block;width:100%;height:430px;border:0;background:#111}
-.radio-frame-note{font-size:11px;line-height:1.6;color:#bcae91;padding:0 10px;margin:12px 0 5px}
-.radio-button{display:inline-flex;align-items:center;gap:18px;padding:16px 25px;background:linear-gradient(135deg,#e8cd88,#b28a3e);color:#100d07;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:2px;box-shadow:0 8px 30px #0008}
-.radio-button span{font-size:16px}
-.radio-credit{max-width:700px;margin:28px auto 0;color:#9f9279;font-size:10px;line-height:1.8}
-@media(max-width:600px){.topnav{gap:10px}.topnav a{font-size:7px;letter-spacing:1px}.mj-radio{padding:78px 5vw}.radio-frame{height:500px}.radio-status{font-size:8px;letter-spacing:1px;padding:10px 11px}.radio-player-shell{padding:7px}}
-
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="#home">MJ <span>•</span> KING OF POP</a><nav class="topnav"><a href="#legacy">THE LEGACY</a><a href="#mj-radio">MJ RADIO</a><a href="#albums">ALBUMS</a></nav></header>
+  <header class="topbar"><a class="brand" href="#home">MJ <span>•</span> KING OF POP</a><nav class="topnav"><a href="#legacy">THE LEGACY</a><a href="#albums">ALBUMS</a></nav></header>
   <main>
     <section class="hero" id="home">
       <div class="hero-glow"></div>
@@ -46,6 +23,9 @@
       <p class="tagline">The entertainer of entertainers.</p>
       <a class="scroll" href="#legacy">SCROLL TO DISCOVER <span>↓</span></a>
     </section>
+    <div class="mj-music-launch">
+      <a class="mj-music-button" href="https://www.youtube.com/playlist?list=PLUeQUfurHN6bjde_KttpUONL9C0wjJvGF" target="_blank" rel="noopener noreferrer" aria-label="Start Michael Jackson music on YouTube">START MJ MUSIC</a>
+    </div>
     <section class="legacy" id="legacy">
       <div class="section-label">01 / THE ARTIST</div>
       <h2>WHO IS <span>MJ?</span></h2>
@@ -62,29 +42,7 @@
       <p class="note">A fan-made tribute website. Not affiliated with the Michael Jackson estate.</p>
     </section>
 
-    <section class="mj-radio" id="mj-radio" aria-labelledby="radio-title">
-      <div class="radio-inner">
-        <p class="radio-kicker">THE KING OF POP • LIVE AROUND THE CLOCK</p>
-        <h2 id="radio-title">MJ <span>RADIO</span></h2>
-        <p class="radio-tagline">TUNE INTO MJ.</p>
-        <p class="radio-description">A dedicated 24/7 Michael Jackson radio experience, powered by MjTunes. Open the live station below and press play to start listening.</p>
-        <div class="radio-status"><span class="live-dot"></span> LIVE RADIO • 24 HOURS A DAY • 7 DAYS A WEEK</div>
-        <div class="radio-player-shell">
-          <div class="radio-player-top"><span>MJ RADIO PLAYER</span><span>LIVE STREAM</span></div>
-          <iframe
-            class="radio-frame"
-            src="https://www.mjtunes.com/?clang=en"
-            title="MjTunes 24/7 Michael Jackson radio player"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allow="autoplay; encrypted-media; picture-in-picture"
-          ></iframe>
-          <p class="radio-frame-note">If the live player does not load inside this page, open the official radio in a new tab and press Play.</p>
-        </div>
-        <a class="radio-button" href="https://www.mjtunes.com/?clang=en" target="_blank" rel="noopener noreferrer">OPEN MJ RADIO LIVE <span>↗</span></a>
-        <p class="radio-credit">Radio stream and programming are provided by MjTunes, an independent station. Its catalogue includes Michael Jackson solo music and related Jackson 5 / The Jacksons recordings. This fan website does not host or rebroadcast the audio.</p>
-      </div>
-    </section>
+
 
     <section class="albums-main" id="albums" aria-label="Michael Jackson albums">
 <div class="albums-kicker">THE MUSIC • THE MASTERPIECES</div><h1 class="albums-heading">ALBUMS <span>OF MJ</span></h1>
