@@ -10,7 +10,7 @@
 
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="#home">MJ <span>•</span> KING OF POP</a><nav class="topnav"><a href="#legacy">THE LEGACY</a><a href="#albums">ALBUMS</a></nav></header>
+  <header class="topbar"><a class="brand" href="#home">MJ <span>•</span> KING OF POP</a><nav class="topnav"><a href="#legacy">THE LEGACY</a><a href="#mj-radio">MJ RADIO</a><a href="#albums">ALBUMS</a></nav></header>
   <main>
     <section class="hero" id="home">
       <div class="hero-glow"></div>
@@ -23,9 +23,32 @@
       <p class="tagline">The entertainer of entertainers.</p>
       <a class="scroll" href="#legacy">SCROLL TO DISCOVER <span>↓</span></a>
     </section>
-    <div class="mj-music-launch">
-      <a class="mj-music-button" href="https://www.youtube.com/playlist?list=PLUeQUfurHN6bjde_KttpUONL9C0wjJvGF" target="_blank" rel="noopener noreferrer" aria-label="Start Michael Jackson music on YouTube">START MJ MUSIC</a>
-    </div>
+    <section class="mj-radio" id="mj-radio" aria-labelledby="radio-title">
+      <div class="radio-inner">
+        <p class="radio-kicker">THE KING OF POP • THE MUSIC NEVER STOPS</p>
+        <h2 id="radio-title">MJ <span>RADIO</span></h2>
+        <p class="radio-tagline">TUNE INTO MJ.</p>
+        <p class="radio-description">Your Michael Jackson music station. Press PLAY ALL once to start the playlist, then let the music continue in the player.</p>
+        <div class="radio-status"><span class="live-dot"></span> MICHAEL JACKSON • PLAYLIST MODE</div>
+        <div class="radio-player-shell">
+          <div class="radio-player-top"><span>MJ RADIO PLAYER</span><span>FULL-SIZE VIDEO</span></div>
+          <div class="radio-video-wrap">
+            <iframe id="mjPlaylistPlayer"
+              src="https://www.youtube-nocookie.com/embed/videoseries?list=PLUeQUfurHN6bjde_KttpUONL9C0wjJvGF&index=0&rel=0"
+              title="Michael Jackson music playlist"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              allowfullscreen></iframe>
+          </div>
+          <p class="radio-frame-note">Playback with sound may require the first tap because browsers block automatic audio. Use PLAY ALL to start.</p>
+        </div>
+        <button class="radio-button" id="mjPlayAll" type="button">PLAY ALL <span>▶</span></button>
+        <a class="radio-button radio-secondary" href="https://www.youtube.com/playlist?list=PLUeQUfurHN6bjde_KttpUONL9C0wjJvGF" target="_blank" rel="noopener noreferrer">OPEN PLAYLIST ON YOUTUBE <span>↗</span></a>
+        <p class="radio-credit">Music and video playback are provided by YouTube. This fan website does not host, copy, or rebroadcast the recordings. Playlist order and availability are controlled by YouTube and the playlist owner.</p>
+      </div>
+    </section>
+
     <section class="legacy" id="legacy">
       <div class="section-label">01 / THE ARTIST</div>
       <h2>WHO IS <span>MJ?</span></h2>

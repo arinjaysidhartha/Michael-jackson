@@ -10,7 +10,25 @@
 .legacy{max-width:900px;margin:auto;padding:110px 9vw 100px;background:linear-gradient(180deg,#17130d,#2a1c14 60%,#17100d);}.section-label{margin-bottom:22px}.legacy h2{font-family:Cinzel,serif;font-size:clamp(38px,7vw,70px);margin:0 0 28px;letter-spacing:3px}.legacy h2 span{color:var(--gold)}.intro{font-size:19px;line-height:2.0;color:#e6dcc7;font-weight:300}.legacy h3{font-family:Cinzel,serif;color:var(--gold);font-size:18px;letter-spacing:3px;margin:30px 0}.rule{height:1px;background:linear-gradient(90deg,var(--gold),transparent);margin:38px 0}.fact{display:grid;grid-template-columns:190px 1fr;gap:22px;padding:18px 0;border-bottom:1px solid #ffffff17}.fact b{font-size:10px;letter-spacing:2px;color:var(--gold);padding-top:5px}.fact p{margin:0;color:#e6dcc7;line-height:1.95;font-size:17px}.small{font-size:17px}.note{font-size:10px;color:#a99c82;margin-top:40px;letter-spacing:1px}footer{text-align:center;padding:28px;color:#9c8250;font-family:Cinzel,serif;font-size:10px;letter-spacing:3px;border-top:1px solid #ffffff18}
 @media(max-width:600px){.intro{font-size:17px}.fact p{font-size:16px}.topbar{padding:0 5vw}.topbar>a:last-child{font-size:8px}.hero{padding-top:115px}.fact{grid-template-columns:1fr;gap:8px}.legacy{padding:80px 7vw}.intro{font-size:14px}}
 
-/* Single MJ music launch button */
-.mj-music-launch{display:flex;justify-content:center;padding:22px 16px 30px;background:#080706}
-.mj-music-button{display:inline-block;padding:11px 18px;border:1px solid #d7b66a;background:transparent;color:#e8cd88;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:2px;transition:background .2s,color .2s}
-.mj-music-button:hover,.mj-music-button:focus-visible{background:#d7b66a;color:#100d07;outline:none}
+/* MJ Radio — black and gold live-radio section */
+.topnav{display:flex;gap:clamp(12px,3vw,34px);align-items:center}
+.topnav a{font-size:9px;letter-spacing:2px}
+.mj-radio{position:relative;overflow:hidden;padding:105px 7vw 110px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#49371b 0%,#17120b 38%,#080808 78%);border-top:1px solid #d7b66a44;border-bottom:1px solid #d7b66a44}
+.mj-radio:before{content:"♪";position:absolute;left:-25px;top:25px;font-family:Georgia,serif;font-size:clamp(180px,35vw,420px);line-height:1;color:#d7b66a08;pointer-events:none}
+.radio-inner{position:relative;z-index:1;max-width:900px;margin:auto}
+.radio-kicker{font-size:9px;letter-spacing:4px;color:var(--gold)}
+.mj-radio h2{font-family:Cinzel,Georgia,serif;font-size:clamp(48px,9vw,88px);line-height:1;margin:20px 0 10px;letter-spacing:5px;color:var(--cream)}
+.mj-radio h2 span{color:var(--gold)}
+.radio-tagline{font-family:Cinzel,Georgia,serif;font-size:clamp(17px,3vw,24px);letter-spacing:6px;color:#f6e8c9;margin:16px 0}
+.radio-description{max-width:640px;margin:0 auto 25px;color:#d9cdb7;font-size:15px;line-height:1.9;font-weight:300}
+.radio-status{display:inline-flex;align-items:center;gap:10px;border:1px solid #d7b66a66;padding:11px 17px;color:#e7d7b3;font-size:9px;letter-spacing:2px;margin:5px auto 28px}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#d7b66a;box-shadow:0 0 12px #d7b66a;animation:radioPulse 1.7s infinite}
+@keyframes radioPulse{50%{opacity:.35;box-shadow:0 0 2px #d7b66a}}
+.radio-player-shell{max-width:1100px;margin:0 auto 25px;padding:10px;border:1px solid #d7b66a99;background:#090807;box-shadow:0 20px 65px #0009;text-align:left}
+.radio-player-top{display:flex;justify-content:space-between;padding:8px 9px 13px;color:var(--gold);font-size:9px;letter-spacing:2px}
+.radio-video-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#050505;overflow:hidden}.radio-video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.radio-frame-note{font-size:11px;line-height:1.6;color:#bcae91;padding:0 10px;margin:12px 0 5px}
+.radio-button{display:inline-flex;align-items:center;justify-content:center;gap:18px;padding:16px 25px;border:0;cursor:pointer;font-family:inherit;background:linear-gradient(135deg,#e8cd88,#b28a3e);color:#100d07;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:2px;box-shadow:0 8px 30px #0008}.radio-button{display:inline-flex;align-items:center;gap:18px;padding:16px 25px;background:linear-gradient(135deg,#e8cd88,#b28a3e);color:#100d07;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:2px;box-shadow:0 8px 30px #0008}
+.radio-button span{font-size:16px}.radio-secondary{margin-left:10px;background:transparent;color:#e8cd88;border:1px solid #d7b66a99;box-shadow:none}
+.radio-credit{max-width:700px;margin:28px auto 0;color:#9f9279;font-size:10px;line-height:1.8}
+@media(max-width:600px){.topnav{gap:10px}.topnav a{font-size:7px;letter-spacing:1px}.mj-radio{padding:78px 5vw}.radio-video-wrap{aspect-ratio:16/9}.radio-secondary{margin:12px 0 0}.radio-status{font-size:8px;letter-spacing:1px;padding:10px 11px}.radio-player-shell{padding:7px}}

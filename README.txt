@@ -14,10 +14,21 @@ Files: index.html, style.css, script.js, albums.css, albums.js, image-credits.tx
 Album artwork loads from Cover Art Archive; the portrait loads from Wikimedia Commons, so those images need an internet connection.
 
 
-MJ MUSIC BUTTON
-- The previous MjTunes radio section has been removed.
-- One small START MJ MUSIC button appears immediately after the homepage hero.
-- The button opens a Michael Jackson playlist on YouTube in a new tab.
-- Audio is played by YouTube; this website does not host, copy, or rebroadcast music.
-- The linked playlist is maintained on YouTube and may not match a custom song order.
-- YouTube and browser playback behavior, including sign-in, ads, and autoplay restrictions, is controlled by YouTube and the visitor's browser.
+MJ RADIO UPDATE
+- Added a dedicated MJ RADIO section to index.html.
+- The live player is provided by MjTunes at https://www.mjtunes.com/?clang=en.
+- Press Play inside the embedded player. If your browser blocks the embedded player, use the OPEN MJ RADIO LIVE link.
+- The radio service runs its own stream; this website does not host, copy, or rebroadcast music.
+- The MjTunes catalogue includes Michael Jackson solo music and related Jackson 5 / The Jacksons recordings.
+- Internet access is required. Playback may require a tap and may open in a separate player window.
+
+
+MJ RADIO: A dedicated radio section appears immediately after the homepage hero. It embeds the MjTunes player and provides an external link if embedding is unavailable. The radio is supplied by MjTunes; this site does not host audio.
+
+
+MJ RADIO — LARGE YOUTUBE PLAYER UPDATE
+- The MJ RADIO section now contains a large, responsive 16:9 YouTube playlist player.
+- PLAY ALL starts the embedded playlist after the visitor taps, respecting browser autoplay-with-sound restrictions.
+- OPEN PLAYLIST ON YOUTUBE opens the playlist directly on YouTube.
+- The player is responsive on phones and desktop; it is no longer a narrow/tiny embedded panel.
+- Playlist contents and order remain controlled by YouTube and the playlist owner; this ZIP does not claim to create or reorder the playlist.
