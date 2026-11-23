@@ -1,6 +1,6 @@
 /* Page 2 only; reuses the existing Page 1 style.css for the same visual identity. */
 .albums-page{background:#080808;color:#f2e7cf}
-.albums-main{max-width:1120px;margin:0 auto;padding:132px 7vw 90px;text-align:left}
+.albums-main{max-width:1120px;margin:0 auto;padding:100px 7vw 90px;text-align:left}
 .albums-kicker{font-size:10px;letter-spacing:4px;color:#d7b66a;margin-bottom:18px}
 .albums-heading{font-family:Cinzel,Georgia,serif;font-size:clamp(42px,8vw,78px);line-height:1.05;letter-spacing:3px;margin:0 0 14px}
 .albums-heading span{color:#d7b66a}

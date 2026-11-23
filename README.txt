@@ -1,13 +1,14 @@
-# Michael Jackson King of Pop — Page 2: Albums
+MICHAEL JACKSON — ONE-PAGE SCROLL WEBSITE
 
-Upload these five files into the same root folder as Page 1. Do not replace `index.html`, `style.css`, or `script.js`.
+This version combines the original Home Page (Page 1) and the Albums page (Page 2) into ONE continuous page.
 
-- `albums.html` — Page 2
-- `albums.css` — Page 2 layout and styling
-- `albums.js` — subtle scroll reveal
-- `README.md` — these notes
-- `album-image-credits.txt` — album artwork sources
+How it works:
+- Open index.html (GitHub Pages will do this automatically).
+- The original Home Page appears first, with its original design and content.
+- Scroll down past the biography to reach ALBUMS OF MJ (Off the Wall, Thriller, Bad).
+- There is no hamburger menu and no separate albums page.
 
-Page 2 address: `https://YOUR-USERNAME.github.io/Michael-jackson/albums.html`
+Upload all files in this ZIP directly into the ROOT of your existing Michael-jackson repository, replacing the old files with the same names. Do not upload the containing folder itself.
 
-Page 2 reuses the existing `style.css`, preserving the Page 1 black-and-gold identity. Page 1 itself is not changed. Album cover artwork loads online from Cover Art Archive.
+Files: index.html, style.css, script.js, albums.css, albums.js, image-credits.txt.
+Album artwork loads from Cover Art Archive; the portrait loads from Wikimedia Commons, so those images need an internet connection.
