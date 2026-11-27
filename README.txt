@@ -58,3 +58,9 @@ Research sources:
 - https://mjsetlists.com/song/history/
 - https://mjsetlists.com/song/come-together/
 - https://www.mjj.lt/en/michael-jackson-live-performances-recordings/
+
+ALBUM PAGE CHECK (2026-11-27)
+- Each Real Music album card opens its own matching HTML page (for example Thriller opens thriller.html).
+- Each dedicated album page has its own album-only tracklist; no cross-album tracklist is shared.
+- Updated missing/invalid cover-art URLs for Dangerous, HIStory, Invincible, Michael, Xscape, Blood on the Dance Floor, and Music & Me.
+- Cover images are remotely hosted and require an internet connection.
