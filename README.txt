@@ -64,3 +64,12 @@ ALBUM PAGE CHECK (2026-11-27)
 - Each dedicated album page has its own album-only tracklist; no cross-album tracklist is shared.
 - Updated missing/invalid cover-art URLs for Dangerous, HIStory, Invincible, Michael, Xscape, Blood on the Dance Floor, and Music & Me.
 - Cover images are remotely hosted and require an internet connection.
+
+
+REAL MUSIC RESET (2026-11-28)
+- The homepage Real Music section now contains only Got to Be There and Ben.
+- Rebuilt those two album pages with album-specific tracklists and the performance notes supplied for each album.
+- Got to Be There includes the five supplied song performance groups and its five rarely/never-performed tracks.
+- Ben includes its ten-track listing with durations, the supplied Ben and My Girl performance notes, and the eight studio-only tracks.
+- The rest of the website and the separate ALBUMS section are preserved.
+- Performance entries are presented as text notes; this update does not claim to have verified or embedded a video for every event.
